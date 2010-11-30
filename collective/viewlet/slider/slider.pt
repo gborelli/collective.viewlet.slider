@@ -1,0 +1,13 @@
+<tal:slider define="images view/images"
+    condition="images">
+<div id="slider">
+  <ul id="sliderContent">
+    <li class="sliderImage" tal:repeat="item images">
+      <img tal:attributes="src string:${item/url};
+                    alt item/title;"/>
+      <span tal:content="item/title" />
+    </li>
+    <div class="sliderImage clear"></div>
+  </ul>
+</div>
+</tal:slider>

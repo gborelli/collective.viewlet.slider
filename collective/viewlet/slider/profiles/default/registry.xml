@@ -1,0 +1,3 @@
+<registry>
+  <records interface="collective.viewlet.slider.interfaces.ISliderSettings" />
+</registry>

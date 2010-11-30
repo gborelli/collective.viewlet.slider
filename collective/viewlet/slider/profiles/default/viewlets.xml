@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<object>
+ <order manager="plone.portaltop">
+  <viewlet name="collective.viewlet.slider" insert-after="*" />
+ </order>
+</object>
